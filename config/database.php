@@ -46,7 +46,7 @@ class Database {
 
 	public function connect()
 	{
-		$this->connection = new PDO("{$this->driver}:dbname={$this->database};host={$this->hostname}",$this->username,$this->password);
+		$this->connection = new PDO("{$this->driver}:dbname={$this->database};host={$this->hostname};port={$this->port}",$this->username,$this->password);
 		$this->connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	}
 

@@ -2,20 +2,48 @@
 
 session_start();
 
-include('config/config.php');
-$db = Database::getInstance();
-$db->build($config);
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST')
 {
-	//var_dump($_POST, $db);
-	$ip_address = ip_address();
-    $user_agent = user_agent();
-    $session_id = session_id();
-    $now = date('Y-m-d H:i:s');
-    $query = "INSERT INTO varilux_authenticites_activities VALUES ('{$user[0]['id']}', '{$ip_address}', '{$user_agent}', '{$session_id}', '{$now}')";
-    //mysql_query($query);
+	include('config/config.php');
+	$db = Database::getInstance();
+	$db->build($config);
 
+	$errors = 0;
+	for($i = 1; $i < 4; $i++)
+	{
+		if (!isset($_POST['ios_'.$i])) $errors++;
+		if (!isset($_POST['android_'.$i])) $errors++;
+	}
+	
+	if ($errors)
+	{
+		$_SESSION['message'] = 'Please answer all questions with an * / SVP répondre à toutes les questions avec une *';
+		header('location: index.php');
+		exit;
+	}
+	else
+	{
+		$args = array(':iso_comments' => $_POST['ios_comments'], ':android_comments' => $_POST['android_comments']);
+		for($i = 1; $i < 4; $i++)
+		{
+			$args[':ios_'.$i] = $_POST['ios_'.$i];
+			$args[':android_'.$i] = $_POST['android_'.$i];
+		}
+		$ip_address = ip_address();
+		$user_agent = user_agent();
+		$session_id = session_id();
+		$now = date('Y-m-d H:i:s');
+		$query = "INSERT INTO survey_activities VALUES ('{$user[0]['id']}', '{$ip_address}', '{$user_agent}', '{$session_id}', '{$now}')";
+		$db-­­>query($query, array());
+		$args[':id'] = $db->lastInsertId();
+		$query = "INSERT INTO survey_answers VALUES (:id, :ios_1, :ios_2, :ios_3, :ios_comments, :android_1, :android_2, :android_3, :android_comments)";
+		$db-­­>query($query, array());
+		
+		$_SESSION['message'] = 'Thank You for your paticipation. / Merci d\'avoir participé.';
+		header('location: index.php');
+		exit;
+	}
 }
 
 function user_agent()

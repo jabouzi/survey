@@ -32,10 +32,18 @@
 				<header>
 					This is a comparative study between the development of some IOS features and Android as part of my graduation project. Your help will be appreciated. Thank you.
 					<br /><hr>
-					Ceci est d'une étude comparative du développement entre certaines fonctionnalités d'IOS et d'Android dans le cadre de mon projet de fin d'études. Votre aide sera apprécié. Merci.
+					Ceci est une étude comparative du développement entre certaines fonctionnalités d'IOS et d'Android dans le cadre de mon projet de fin d'études. Votre aide sera apprécié. Merci.
 				</header>
 
 				<fieldset>
+					
+					<?php if (isset($_SESSION['message'])) : ?>
+						<section>
+							<div class="note-error"><h1><?php echo $_SESSION['message']; ?></h1></div>
+						</section>
+					<?php unset($_SESSION['message']); ?>
+					<?php endif; ?>
+					
 					<section>
 						<label class="label"><h1>IOS Development / Développement IOS</h1></label>
 					</section>
@@ -45,11 +53,11 @@
 					</section>
 					
 					<section>
-						<label class="label"><h3>Geolocalisation / Géolocalisation</h3></label>
+						<label class="label"><h3>Geolocation / Géolocalisation</h3></label>
 					</section>
 
 					<section>
-						<label class="label"></label>
+						<label class="label">* <i>Programming an IOS application that uses geolocation / Programmer une application IOS qui utilise la géolocalisation</i></label>
 						<div class="inline-group1">
 							<label class="radio"><input type="radio" name="ios_1" value="ios_1_1"><i></i>Very easy / Très facile</label>
 							<label class="radio"><input type="radio" name="ios_1" value="ios_1_2"><i></i>Easy / Facile</label>
@@ -69,7 +77,7 @@
 					</section>
 
 					<section>
-						<label class="label"></label>
+						<label class="label">* <i>Programming an IOS application that uses sensors / Programmer une application IOS qui utilise les capteurs</i></label>
 						<div class="inline-group2">
 							<label class="radio"><input type="radio" name="ios_2" value="ios_2_1"><i></i>Very easy / Très facile</label>
 							<label class="radio"><input type="radio" name="ios_2" value="ios_2_2"><i></i>Easy / Facile</label>
@@ -89,7 +97,7 @@
 					</section>
 
 					<section>
-						<label class="label"></label>
+						<label class="label">* <i>Programming an IOS application that uses sqlite database / Programmer une application IOS qui utilise la base de donnée sqlite</i></label>
 						<div class="inline-group3">
 							<label class="radio"><input type="radio" name="ios_3" value="ios_3_1"><i></i>Very easy / Très facile</label>
 							<label class="radio"><input type="radio" name="ios_3" value="ios_3_2"><i></i>Easy / Facile</label>
@@ -118,7 +126,7 @@
 					</section>
 					
 					<section>
-						<label class="label">&nbsp;</label>
+						<label class="label">* <i>Programming an Android application that uses geolocation / Programmer une application Android qui utilise la géolocalisation</i></label>
 					</section>
 					
 					<section>
@@ -146,7 +154,7 @@
 					</section>
 
 					<section>
-						<label class="label"></label>
+						<label class="label">* <i>Programming an Android application that uses sensors / Programmer une application Android qui utilise les capteurs</i></label>
 						<div class="inline-group5">
 							<label class="radio"><input type="radio" name="android_2" value="android_2_1"><i></i>Very easy / Très facile</label>
 							<label class="radio"><input type="radio" name="android_2" value="android_2_2"><i></i>Easy / Facile</label>
@@ -166,7 +174,7 @@
 					</section>
 
 					<section>
-						<label class="label"></label>
+						<label class="label">* <i>Programming an Android application that uses sqlite database / Programmer une application Android qui utilise la base de donnée sqlite</i></label>
 						<div class="inline-group6">
 							<label class="radio"><input type="radio" name="android_3" value="android_3_1"><i></i>Very easy / Très facile</label>
 							<label class="radio"><input type="radio" name="android_3" value="android_3_2"><i></i>Easy / Facile</label>

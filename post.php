@@ -3,6 +3,8 @@
 session_start();
 
 include('config/config.php');
+$db = Database::getInstance();
+$db->build($config);
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST')
 {

@@ -8,7 +8,7 @@ $db->build($config);
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST')
 {
-	var_dump($_POST, $db);
+	//var_dump($_POST, $db);
 	$ip_address = ip_address();
     $user_agent = user_agent();
     $session_id = session_id();

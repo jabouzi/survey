@@ -2,8 +2,8 @@
 
 include('database.php');
 
-$config['database'] = 'jabouzic_survey';
-$config['username'] = 'jabouzic_db';
+$config['database'] = 'survey';
+$config['username'] = 'root';
 $config['password'] = '7024043';
 $config['host'] = 'localhost';
 $config['driver'] = 'mysql';

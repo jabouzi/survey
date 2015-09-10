@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 	}
 	else
 	{
-		$args = array(':iso_comments' => $_POST['ios_comments'], ':android_comments' => $_POST['android_comments']);
+		$args = array(':ios_comments' => $_POST['ios_comments'], ':android_comments' => $_POST['android_comments']);
 		for($i = 1; $i < 4; $i++)
 		{
 			$args[':ios_'.$i] = $_POST['ios_'.$i];
@@ -35,11 +35,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		$session_id = session_id();
 		$now = date('Y-m-d H:i:s');
 		$query = "INSERT INTO survey_activities VALUES ('{$user[0]['id']}', '{$ip_address}', '{$user_agent}', '{$session_id}', '{$now}')";
-		$db-­­>query($query, array());
+		$db->query($query, array());
 		$args[':id'] = $db->lastInsertId();
-		$query = "INSERT INTO survey_answers VALUES (:id, :ios_1, :ios_2, :ios_3, :ios_comments, :android_1, :android_2, :android_3, :android_comments)";
-		$db-­­>query($query, array());
-		
+		$query = "INSERT INTO survey_answers (id, ios_1, ios_2, ios_3, android_1, android_2, android_3, ios_comments, android_comments) VALUES (:id, :ios_1, :ios_2, :ios_3, :android_1, :android_2, :android_3, :ios_comments, :android_comments)";
+		$db->query($query, $args);
 		$_SESSION['message'] = 'Thank You for your paticipation. / Merci d\'avoir participé.';
 		header('location: index.php');
 		exit;

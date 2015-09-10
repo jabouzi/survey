@@ -1,0 +1,29 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+a {
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+.bg-blue {
+	background-color:#BDCFE1;
+}
+.body {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 40px;
+}
+.body-s {
+	max-width: 800px;
+}
+@media screen and (max-width: 600px) {
+	.body {
+		padding: 20px;
+	}
+}

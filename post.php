@@ -2,15 +2,17 @@
 
 session_start();
 
+include('config/config.php');
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST')
 {
-	var_dump($_POST);
+	var_dump($_POST, $db);
 	$ip_address = ip_address();
     $user_agent = user_agent();
     $session_id = session_id();
     $now = date('Y-m-d H:i:s');
     $query = "INSERT INTO varilux_authenticites_activities VALUES ('{$user[0]['id']}', '{$ip_address}', '{$user_agent}', '{$session_id}', '{$now}')";
-    mysql_query($query);
+    //mysql_query($query);
 
 }
 

@@ -44,8 +44,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		$db->query($query, array());
 		//echo '<pre>';
 		//print_r($args);
-		//$args[':id'] = $db->lastInsertId();
-		$query = "insert into survey_answers (
+		$args[':id'] = $db->lastInsertId();
+        $query = "INSERT INTO survey_answers (
+          id, 
 		  ios_1_1,
 		  ios_1_2,
 		  ios_1_3,
@@ -73,6 +74,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		  ios_comments,
 		  android_comments,
 		) values (
+		  :id,
 		  :ios_1_1,
 		  :ios_1_2,
 		  :ios_1_3,

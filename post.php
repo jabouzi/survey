@@ -28,6 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 	}
 	else
 	{
+        unset($_SESSION['post']);
 		$args = array(':ios_comments' => $_POST['ios_comments'], ':android_comments' => $_POST['android_comments']);
 		for($i = 1; $i <= 3; $i++)
 		{

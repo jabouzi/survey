@@ -210,7 +210,7 @@
 					<section>
 						<label class="label">Comments / Commentaires</label>
 						<label class="textarea">
-							<textarea rows="2" name="ios_comments"></textarea>
+							<textarea rows="2" name="ios_comments"><?php echo $_SESSION['post']['ios_comments']; ?></textarea>
 						</label>
 					</section>
 				</fieldset>
@@ -378,7 +378,7 @@
 					<section>
 						<label class="label">Comments / Commentaires</label>
 						<label class="textarea">
-							<textarea rows="2" name="android_comments"></textarea>
+							<textarea rows="2" name="android_comments"><?php echo $_SESSION['post']['android_comments']; ?></textarea>
 						</label>
 					</section>
 				</fieldset>

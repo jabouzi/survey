@@ -73,7 +73,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		  android_3_3,
 		  android_3_4,
 		  ios_comments,
-		  android_comments,
+		  android_comments
 		) values (
 		  :ios_1_1,
 		  :ios_1_2,

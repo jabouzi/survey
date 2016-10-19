@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		$args = array(':ios_comments' => $_POST['ios_comments'], ':android_comments' => $_POST['android_comments']);
 		for($i = 1; $i <= 3; $i++)
 		{
-			for($i = 1; $i <= 4; $j++)
+			for($j = 1; $j <= 4; $j++)
 			{
 				$args[':ios_'.$i.'_'.$j] = $_POST['ios_'.$i.'_'.$j];
 				$args[':android_'.$i.'_'.$j] = $_POST['android_'.$i.'_'.$j];

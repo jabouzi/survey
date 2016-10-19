@@ -55,45 +55,45 @@
 					<section>
 						<label class="label">* <i>Examples and tutorials availables / Exemples et tutoriels disponibles</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="ios_1_1" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="ios_1_1" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="ios_1_1" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="ios_1_1" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="ios_1_1" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="ios_1_1" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="ios_1_1" value="1" <?php if ($_SESSION['post']['ios_1_1'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_1_1" value="2" <?php if ($_SESSION['post']['ios_1_1'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_1_1" value="3" <?php if ($_SESSION['post']['ios_1_1'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_1_1" value="4" <?php if ($_SESSION['post']['ios_1_1'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_1_1" value="5" <?php if ($_SESSION['post']['ios_1_1'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_1_1" value="6" <?php if ($_SESSION['post']['ios_1_1'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					<section>
 						<label class="label">* <i>Help and support available online / Aide et support disponible en ligne</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="ios_1_2" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="ios_1_2" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="ios_1_2" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="ios_1_2" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="ios_1_2" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="ios_1_2" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="ios_1_2" value="1" <?php if ($_SESSION['post']['ios_1_2'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_1_2" value="2" <?php if ($_SESSION['post']['ios_1_2'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_1_2" value="3" <?php if ($_SESSION['post']['ios_1_2'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_1_2" value="4" <?php if ($_SESSION['post']['ios_1_2'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_1_2" value="5" <?php if ($_SESSION['post']['ios_1_2'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_1_2" value="6" <?php if ($_SESSION['post']['ios_1_2'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					<section>
 						<label class="label">* <i>Having a code that compiles without errors  / Avoir un code qui compile sans erreurs</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="ios_1_3" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="ios_1_3" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="ios_1_3" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="ios_1_3" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="ios_1_3" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="ios_1_3" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="ios_1_3" value="1" <?php if ($_SESSION['post']['ios_1_3'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_1_3" value="2" <?php if ($_SESSION['post']['ios_1_3'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_1_3" value="3" <?php if ($_SESSION['post']['ios_1_3'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_1_3" value="4" <?php if ($_SESSION['post']['ios_1_3'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_1_3" value="5" <?php if ($_SESSION['post']['ios_1_3'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_1_3" value="6" <?php if ($_SESSION['post']['ios_1_3'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					<section>
 						<label class="label">* <i>The application run without any bugs / L'application fonctionne sans bogues</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="ios_1_4" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="ios_1_4" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="ios_1_4" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="ios_1_4" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="ios_1_4" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="ios_1_4" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="ios_1_4" value="1" <?php if ($_SESSION['post']['ios_1_4'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_1_4" value="2" <?php if ($_SESSION['post']['ios_1_4'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_1_4" value="3" <?php if ($_SESSION['post']['ios_1_4'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_1_4" value="4" <?php if ($_SESSION['post']['ios_1_4'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_1_4" value="5" <?php if ($_SESSION['post']['ios_1_4'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_1_4" value="6" <?php if ($_SESSION['post']['ios_1_4'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					
@@ -108,45 +108,45 @@
 					<section>
 						<label class="label">* <i>Examples and tutorials availables / Exemples et tutoriels disponibles</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="ios_2_1" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="ios_2_1" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="ios_2_1" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="ios_2_1" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="ios_2_1" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="ios_2_1" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="ios_2_1" value="1" <?php if ($_SESSION['post']['ios_2_1'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_2_1" value="2" <?php if ($_SESSION['post']['ios_2_1'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_2_1" value="3" <?php if ($_SESSION['post']['ios_2_1'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_2_1" value="4" <?php if ($_SESSION['post']['ios_2_1'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_2_1" value="5" <?php if ($_SESSION['post']['ios_2_1'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_2_1" value="6" <?php if ($_SESSION['post']['ios_2_1'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					<section>
 						<label class="label">* <i>Help and support available online / Aide et support disponible en ligne</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="ios_2_2" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="ios_2_2" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="ios_2_2" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="ios_2_2" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="ios_2_2" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="ios_2_2" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="ios_2_2" value="1" <?php if ($_SESSION['post']['ios_2_2'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_2_2" value="2" <?php if ($_SESSION['post']['ios_2_2'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_2_2" value="3" <?php if ($_SESSION['post']['ios_2_2'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_2_2" value="4" <?php if ($_SESSION['post']['ios_2_2'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_2_2" value="5" <?php if ($_SESSION['post']['ios_2_2'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_2_2" value="6" <?php if ($_SESSION['post']['ios_2_2'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					<section>
 						<label class="label">* <i>Having a code that compiles without errors  / Avoir un code qui compile sans erreurs</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="ios_2_3" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="ios_2_3" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="ios_2_3" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="ios_2_3" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="ios_2_3" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="ios_2_3" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="ios_2_3" value="1" <?php if ($_SESSION['post']['ios_2_3'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_2_3" value="2" <?php if ($_SESSION['post']['ios_2_3'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_2_3" value="3" <?php if ($_SESSION['post']['ios_2_3'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_2_3" value="4" <?php if ($_SESSION['post']['ios_2_3'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_2_3" value="5" <?php if ($_SESSION['post']['ios_2_3'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_2_3" value="6" <?php if ($_SESSION['post']['ios_2_3'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					<section>
 						<label class="label">* <i>The application run without any bugs / L'application fonctionne sans bogues</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="ios_2_4" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="ios_2_4" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="ios_2_4" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="ios_2_4" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="ios_2_4" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="ios_2_4" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="ios_2_4" value="1" <?php if ($_SESSION['post']['ios_2_4'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_2_4" value="2" <?php if ($_SESSION['post']['ios_2_4'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_2_4" value="3" <?php if ($_SESSION['post']['ios_2_4'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_2_4" value="4" <?php if ($_SESSION['post']['ios_2_4'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_2_4" value="5" <?php if ($_SESSION['post']['ios_2_4'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_2_4" value="6" <?php if ($_SESSION['post']['ios_2_4'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					
@@ -161,45 +161,45 @@
 					<section>
 						<label class="label">* <i>Examples and tutorials availables / Exemples et tutoriels disponibles</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="ios_3_1" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="ios_3_1" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="ios_3_1" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="ios_3_1" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="ios_3_1" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="ios_3_1" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="ios_3_1" value="1" <?php if ($_SESSION['post']['ios_3_1'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_3_1" value="2" <?php if ($_SESSION['post']['ios_3_1'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_3_1" value="3" <?php if ($_SESSION['post']['ios_3_1'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_3_1" value="4" <?php if ($_SESSION['post']['ios_3_1'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_3_1" value="5" <?php if ($_SESSION['post']['ios_3_1'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_3_1" value="6" <?php if ($_SESSION['post']['ios_3_1'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					<section>
 						<label class="label">* <i>Help and support available online / Aide et support disponible en ligne</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="ios_3_2" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="ios_3_2" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="ios_3_2" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="ios_3_2" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="ios_3_2" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="ios_3_2" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="ios_3_2" value="1" <?php if ($_SESSION['post']['ios_3_2'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_3_2" value="2" <?php if ($_SESSION['post']['ios_3_2'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_3_2" value="3" <?php if ($_SESSION['post']['ios_3_2'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_3_2" value="4" <?php if ($_SESSION['post']['ios_3_2'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_3_2" value="5" <?php if ($_SESSION['post']['ios_3_2'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_3_2" value="6" <?php if ($_SESSION['post']['ios_3_2'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					<section>
 						<label class="label">* <i>Having a code that compiles without errors  / Avoir un code qui compile sans erreurs</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="ios_3_3" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="ios_3_3" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="ios_3_3" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="ios_3_3" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="ios_3_3" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="ios_3_3" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="ios_3_3" value="1" <?php if ($_SESSION['post']['ios_3_3'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_3_3" value="2" <?php if ($_SESSION['post']['ios_3_3'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_3_3" value="3" <?php if ($_SESSION['post']['ios_3_3'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_3_3" value="4" <?php if ($_SESSION['post']['ios_3_3'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_3_3" value="5" <?php if ($_SESSION['post']['ios_3_3'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_3_3" value="6" <?php if ($_SESSION['post']['ios_3_3'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					<section>
 						<label class="label">* <i>The application run without any bugs / L'application fonctionne sans bogues</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="ios_3_4" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="ios_3_4" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="ios_3_4" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="ios_3_4" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="ios_3_4" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="ios_3_4" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="ios_3_4" value="1" <?php if ($_SESSION['post']['ios_3_4'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_3_4" value="2" <?php if ($_SESSION['post']['ios_3_4'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_3_4" value="3" <?php if ($_SESSION['post']['ios_3_4'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_3_4" value="4" <?php if ($_SESSION['post']['ios_3_4'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_3_4" value="5" <?php if ($_SESSION['post']['ios_3_4'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_3_4" value="6" <?php if ($_SESSION['post']['ios_3_4'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					
@@ -223,45 +223,45 @@
 					<section>
 						<label class="label">* <i>Examples and tutorials availables / Exemples et tutoriels disponibles</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="android_1_1" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="android_1_1" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="android_1_1" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="android_1_1" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="android_1_1" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="android_1_1" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="android_1_1" value="1" <?php if ($_SESSION['post']['android_1_1'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_1_1" value="2" <?php if ($_SESSION['post']['android_1_1'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_1_1" value="3" <?php if ($_SESSION['post']['android_1_1'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_1_1" value="4" <?php if ($_SESSION['post']['android_1_1'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_1_1" value="5" <?php if ($_SESSION['post']['android_1_1'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_1_1" value="6" <?php if ($_SESSION['post']['android_1_1'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					<section>
 						<label class="label">* <i>Help and support available online / Aide et support disponible en ligne</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="android_1_2" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="android_1_2" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="android_1_2" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="android_1_2" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="android_1_2" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="android_1_2" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="android_1_2" value="1" <?php if ($_SESSION['post']['android_1_2'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_1_2" value="2" <?php if ($_SESSION['post']['android_1_2'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_1_2" value="3" <?php if ($_SESSION['post']['android_1_2'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_1_2" value="4" <?php if ($_SESSION['post']['android_1_2'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_1_2" value="5" <?php if ($_SESSION['post']['android_1_2'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_1_2" value="6" <?php if ($_SESSION['post']['android_1_2'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					<section>
 						<label class="label">* <i>Having a code that compiles without errors  / Avoir un code qui compile sans erreurs</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="android_1_3" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="android_1_3" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="android_1_3" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="android_1_3" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="android_1_3" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="android_1_3" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="android_1_3" value="1" <?php if ($_SESSION['post']['android_1_3'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_1_3" value="2" <?php if ($_SESSION['post']['android_1_3'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_1_3" value="3" <?php if ($_SESSION['post']['android_1_3'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_1_3" value="4" <?php if ($_SESSION['post']['android_1_3'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_1_3" value="5" <?php if ($_SESSION['post']['android_1_3'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_1_3" value="6" <?php if ($_SESSION['post']['android_1_3'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					<section>
 						<label class="label">* <i>The application run without any bugs / L'application fonctionne sans bogues</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="android_1_4" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="android_1_4" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="android_1_4" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="android_1_4" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="android_1_4" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="android_1_4" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="android_1_4" value="1" <?php if ($_SESSION['post']['android_1_4'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_1_4" value="2" <?php if ($_SESSION['post']['android_1_4'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_1_4" value="3" <?php if ($_SESSION['post']['android_1_4'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_1_4" value="4" <?php if ($_SESSION['post']['android_1_4'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_1_4" value="5" <?php if ($_SESSION['post']['android_1_4'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_1_4" value="6" <?php if ($_SESSION['post']['android_1_4'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					
@@ -276,45 +276,45 @@
 					<section>
 						<label class="label">* <i>Examples and tutorials availables / Exemples et tutoriels disponibles</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="android_2_1" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="android_2_1" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="android_2_1" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="android_2_1" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="android_2_1" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="android_2_1" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="android_2_1" value="1" <?php if ($_SESSION['post']['android_2_1'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_2_1" value="2" <?php if ($_SESSION['post']['android_2_1'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_2_1" value="3" <?php if ($_SESSION['post']['android_2_1'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_2_1" value="4" <?php if ($_SESSION['post']['android_2_1'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_2_1" value="5" <?php if ($_SESSION['post']['android_2_1'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_2_1" value="6" <?php if ($_SESSION['post']['android_2_1'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					<section>
 						<label class="label">* <i>Help and support available online / Aide et support disponible en ligne</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="android_2_2" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="android_2_2" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="android_2_2" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="android_2_2" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="android_2_2" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="android_2_2" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="android_2_2" value="1" <?php if ($_SESSION['post']['android_2_2'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_2_2" value="2" <?php if ($_SESSION['post']['android_2_2'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_2_2" value="3" <?php if ($_SESSION['post']['android_2_2'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_2_2" value="4" <?php if ($_SESSION['post']['android_2_2'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_2_2" value="5" <?php if ($_SESSION['post']['android_2_2'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_2_2" value="6" <?php if ($_SESSION['post']['android_2_2'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					<section>
 						<label class="label">* <i>Having a code that compiles without errors  / Avoir un code qui compile sans erreurs</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="android_2_3" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="android_2_3" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="android_2_3" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="android_2_3" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="android_2_3" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="android_2_3" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="android_2_3" value="1" <?php if ($_SESSION['post']['android_2_3'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_2_3" value="2" <?php if ($_SESSION['post']['android_2_3'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_2_3" value="3" <?php if ($_SESSION['post']['android_2_3'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_2_3" value="4" <?php if ($_SESSION['post']['android_2_3'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_2_3" value="5" <?php if ($_SESSION['post']['android_2_3'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_2_3" value="6" <?php if ($_SESSION['post']['android_2_3'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					<section>
 						<label class="label">* <i>The application run without any bugs / L'application fonctionne sans bogues</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="android_2_4" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="android_2_4" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="android_2_4" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="android_2_4" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="android_2_4" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="android_2_4" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="android_2_4" value="1" <?php if ($_SESSION['post']['android_2_4'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_2_4" value="2" <?php if ($_SESSION['post']['android_2_4'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_2_4" value="3" <?php if ($_SESSION['post']['android_2_4'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_2_4" value="4" <?php if ($_SESSION['post']['android_2_4'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_2_4" value="5" <?php if ($_SESSION['post']['android_2_4'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_2_4" value="6" <?php if ($_SESSION['post']['android_2_4'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					
@@ -329,45 +329,45 @@
 					<section>
 						<label class="label">* <i>Examples and tutorials availables / Exemples et tutoriels disponibles</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="android_3_1" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="android_3_1" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="android_3_1" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="android_3_1" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="android_3_1" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="android_3_1" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="android_3_1" value="1" <?php if ($_SESSION['post']['android_3_1'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_3_1" value="2" <?php if ($_SESSION['post']['android_3_1'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_3_1" value="3" <?php if ($_SESSION['post']['android_3_1'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_3_1" value="4" <?php if ($_SESSION['post']['android_3_1'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_3_1" value="5" <?php if ($_SESSION['post']['android_3_1'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_3_1" value="6" <?php if ($_SESSION['post']['android_3_1'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					<section>
 						<label class="label">* <i>Help and support available online / Aide et support disponible en ligne</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="android_3_2" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="android_3_2" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="android_3_2" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="android_3_2" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="android_3_2" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="android_3_2" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="android_3_2" value="1" <?php if ($_SESSION['post']['android_3_2'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_3_2" value="2" <?php if ($_SESSION['post']['android_3_2'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_3_2" value="3" <?php if ($_SESSION['post']['android_3_2'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_3_2" value="4" <?php if ($_SESSION['post']['android_3_2'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_3_2" value="5" <?php if ($_SESSION['post']['android_3_2'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_3_2" value="6" <?php if ($_SESSION['post']['android_3_2'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					<section>
 						<label class="label">* <i>Having a code that compiles without errors  / Avoir un code qui compile sans erreurs</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="android_3_3" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="android_3_3" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="android_3_3" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="android_3_3" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="android_3_3" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="android_3_3" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="android_3_3" value="1" <?php if ($_SESSION['post']['android_3_3'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_3_3" value="2" <?php if ($_SESSION['post']['android_3_3'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_3_3" value="3" <?php if ($_SESSION['post']['android_3_3'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_3_3" value="4" <?php if ($_SESSION['post']['android_3_3'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_3_3" value="5" <?php if ($_SESSION['post']['android_3_3'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_3_3" value="6" <?php if ($_SESSION['post']['android_3_3'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					<section>
 						<label class="label">* <i>The application run without any bugs / L'application fonctionne sans bogues</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="android_3_4" value="1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="android_3_4" value="2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="android_3_4" value="3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="android_3_4" value="4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="android_3_4" value="5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="android_3_4" value="6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="android_3_4" value="1" <?php if ($_SESSION['post']['android_3_4'] == 1) echo 'checked'; ?>> <i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_3_4" value="2" <?php if ($_SESSION['post']['android_3_4'] == 2) echo 'checked'; ?>> <i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_3_4" value="3" <?php if ($_SESSION['post']['android_3_4'] == 3) echo 'checked'; ?>> <i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_3_4" value="4" <?php if ($_SESSION['post']['android_3_4'] == 4) echo 'checked'; ?>> <i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_3_4" value="5" <?php if ($_SESSION['post']['android_3_4'] == 5) echo 'checked'; ?>> <i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_3_4" value="6" <?php if ($_SESSION['post']['android_3_4'] == 6) echo 'checked'; ?>> <i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					

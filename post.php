@@ -22,6 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 	if ($errors)
 	{
 		$_SESSION['message'] = 'Please answer all questions with an * / SVP répondre à toutes les questions avec une *';
+		$_SESSION['post'] = $_POST;
 		header('location: index.php');
 		exit;
 	}

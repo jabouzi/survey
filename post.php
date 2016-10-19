@@ -44,8 +44,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		$db->query($query, array());
 		$args[':id'] = $db->lastInsertId();
 		echo '<pre>';
-		var_dump($args);
-		$query = "INSERT INTO survey_answers (".str_replace(':', '', implode(',', array_keys($args))).") VALUES (".implode(',', array_keys($args)).")";
+		var_dump($_POST, $args);
+		$query = "INSERT INTO survey_answers (".implode(',', array_keys($_POST)).") VALUES (".implode(',', array_keys($args)).")";
 		echo $query;
 		$db->query($query, $args);
 		$_SESSION['message'] = 'Thank You for your paticipation. / Merci d\'avoir participé.';

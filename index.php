@@ -49,22 +49,51 @@
 					</section>
 					
 					<section>
-						<label class="label">&nbsp;</label>
-					</section>
-					
-					<section>
 						<label class="label"><h3>Geolocation / Géolocalisation</h3></label>
 					</section>
 
 					<section>
-						<label class="label">* <i>Programming an IOS application that uses geolocation / Programmer une application IOS qui utilise la géolocalisation</i></label>
+						<label class="label">* <i>Examples and tutorials availables / Exemples et tutoriels disponibles</i></label>
 						<div class="inline-group1">
-							<label class="radio"><input type="radio" name="ios_1" value="ios_1_1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="ios_1" value="ios_1_2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="ios_1" value="ios_1_3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="ios_1" value="ios_1_4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="ios_1" value="ios_1_5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="ios_1" value="ios_1_6"><i></i>Not Applicable / Non applicable</label>
+							<label class="radio"><input type="radio" name="ios_1_1" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_1_1" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_1_1" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_1_1" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_1_1" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_1_1" value="6"><i></i>Not Applicable / Non applicable</label>
+						</div>
+					</section>
+					<section>
+						<label class="label">* <i>Help and support available online / Aide et support disponible en ligne</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="ios_1_2" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_1_2" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_1_2" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_1_2" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_1_2" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_1_2" value="6"><i></i>Not Applicable / Non applicable</label>
+						</div>
+					</section>
+					<section>
+						<label class="label">* <i>Having a code that compiles without errors  / Avoir un code qui compile sans erreurs</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="ios_1_3" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_1_3" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_1_3" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_1_3" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_1_3" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_1_3" value="6"><i></i>Not Applicable / Non applicable</label>
+						</div>
+					</section>
+					<section>
+						<label class="label">* <i>The application run without any bugs / L'application fonctionne sans bogues</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="ios_1_4" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_1_4" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_1_4" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_1_4" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_1_4" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_1_4" value="6"><i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					
@@ -77,14 +106,47 @@
 					</section>
 
 					<section>
-						<label class="label">* <i>Programming an IOS application that uses sensors / Programmer une application IOS qui utilise les capteurs</i></label>
-						<div class="inline-group2">
-							<label class="radio"><input type="radio" name="ios_2" value="ios_2_1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="ios_2" value="ios_2_2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="ios_2" value="ios_2_3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="ios_2" value="ios_2_4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="ios_2" value="ios_2_5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="ios_2" value="ios_2_6"><i></i>Not Applicable / Non applicable</label>
+						<label class="label">* <i>Examples and tutorials availables / Exemples et tutoriels disponibles</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="ios_2_1" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_2_1" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_2_1" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_2_1" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_2_1" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_2_1" value="6"><i></i>Not Applicable / Non applicable</label>
+						</div>
+					</section>
+					<section>
+						<label class="label">* <i>Help and support available online / Aide et support disponible en ligne</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="ios_2_2" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_2_2" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_2_2" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_2_2" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_2_2" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_2_2" value="6"><i></i>Not Applicable / Non applicable</label>
+						</div>
+					</section>
+					<section>
+						<label class="label">* <i>Having a code that compiles without errors  / Avoir un code qui compile sans erreurs</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="ios_2_3" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_2_3" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_2_3" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_2_3" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_2_3" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_2_3" value="6"><i></i>Not Applicable / Non applicable</label>
+						</div>
+					</section>
+					<section>
+						<label class="label">* <i>The application run without any bugs / L'application fonctionne sans bogues</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="ios_2_4" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_2_4" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_2_4" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_2_4" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_2_4" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_2_4" value="6"><i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					
@@ -97,14 +159,47 @@
 					</section>
 
 					<section>
-						<label class="label">* <i>Programming an IOS application that uses sqlite database / Programmer une application IOS qui utilise la base de donnée sqlite</i></label>
-						<div class="inline-group3">
-							<label class="radio"><input type="radio" name="ios_3" value="ios_3_1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="ios_3" value="ios_3_2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="ios_3" value="ios_3_3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="ios_3" value="ios_3_4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="ios_3" value="ios_3_5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="ios_3" value="ios_3_6"><i></i>Not Applicable / Non applicable</label>
+						<label class="label">* <i>Examples and tutorials availables / Exemples et tutoriels disponibles</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="ios_3_1" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_3_1" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_3_1" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_3_1" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_3_1" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_3_1" value="6"><i></i>Not Applicable / Non applicable</label>
+						</div>
+					</section>
+					<section>
+						<label class="label">* <i>Help and support available online / Aide et support disponible en ligne</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="ios_3_2" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_3_2" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_3_2" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_3_2" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_3_2" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_3_2" value="6"><i></i>Not Applicable / Non applicable</label>
+						</div>
+					</section>
+					<section>
+						<label class="label">* <i>Having a code that compiles without errors  / Avoir un code qui compile sans erreurs</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="ios_3_3" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_3_3" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_3_3" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_3_3" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_3_3" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_3_3" value="6"><i></i>Not Applicable / Non applicable</label>
+						</div>
+					</section>
+					<section>
+						<label class="label">* <i>The application run without any bugs / L'application fonctionne sans bogues</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="ios_3_4" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="ios_3_4" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="ios_3_4" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="ios_3_4" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="ios_3_4" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="ios_3_4" value="6"><i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					
@@ -124,24 +219,49 @@
 					<section>
 						<label class="label"><h1>Android Development / Développement Android</h1></label>
 					</section>
-					
-					<section>
-						<label class="label">* <i>Programming an Android application that uses geolocation / Programmer une application Android qui utilise la géolocalisation</i></label>
-					</section>
-					
-					<section>
-						<label class="label"><h3>Geolocalisation / Géolocalisation</h3></label>
-					</section>
 
 					<section>
-						<label class="label"></label>
-						<div class="inline-group4">
-							<label class="radio"><input type="radio" name="android_1" value="android_1_1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="android_1" value="android_1_2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="android_1" value="android_1_3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="android_1" value="android_1_4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="android_1" value="android_1_5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="android_1" value="android_1_6"><i></i>Not Applicable / Non applicable</label>
+						<label class="label">* <i>Examples and tutorials availables / Exemples et tutoriels disponibles</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="android_1_1" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_1_1" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_1_1" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_1_1" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_1_1" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_1_1" value="6"><i></i>Not Applicable / Non applicable</label>
+						</div>
+					</section>
+					<section>
+						<label class="label">* <i>Help and support available online / Aide et support disponible en ligne</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="android_1_2" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_1_2" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_1_2" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_1_2" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_1_2" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_1_2" value="6"><i></i>Not Applicable / Non applicable</label>
+						</div>
+					</section>
+					<section>
+						<label class="label">* <i>Having a code that compiles without errors  / Avoir un code qui compile sans erreurs</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="android_1_3" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_1_3" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_1_3" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_1_3" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_1_3" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_1_3" value="6"><i></i>Not Applicable / Non applicable</label>
+						</div>
+					</section>
+					<section>
+						<label class="label">* <i>The application run without any bugs / L'application fonctionne sans bogues</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="android_1_4" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_1_4" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_1_4" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_1_4" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_1_4" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_1_4" value="6"><i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					
@@ -154,14 +274,47 @@
 					</section>
 
 					<section>
-						<label class="label">* <i>Programming an Android application that uses sensors / Programmer une application Android qui utilise les capteurs</i></label>
-						<div class="inline-group5">
-							<label class="radio"><input type="radio" name="android_2" value="android_2_1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="android_2" value="android_2_2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="android_2" value="android_2_3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="android_2" value="android_2_4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="android_2" value="android_2_5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="android_2" value="android_2_6"><i></i>Not Applicable / Non applicable</label>
+						<label class="label">* <i>Examples and tutorials availables / Exemples et tutoriels disponibles</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="android_2_1" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_2_1" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_2_1" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_2_1" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_2_1" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_2_1" value="6"><i></i>Not Applicable / Non applicable</label>
+						</div>
+					</section>
+					<section>
+						<label class="label">* <i>Help and support available online / Aide et support disponible en ligne</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="android_2_2" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_2_2" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_2_2" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_2_2" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_2_2" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_2_2" value="6"><i></i>Not Applicable / Non applicable</label>
+						</div>
+					</section>
+					<section>
+						<label class="label">* <i>Having a code that compiles without errors  / Avoir un code qui compile sans erreurs</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="android_2_3" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_2_3" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_2_3" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_2_3" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_2_3" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_2_3" value="6"><i></i>Not Applicable / Non applicable</label>
+						</div>
+					</section>
+					<section>
+						<label class="label">* <i>The application run without any bugs / L'application fonctionne sans bogues</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="android_2_4" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_2_4" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_2_4" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_2_4" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_2_4" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_2_4" value="6"><i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					
@@ -174,14 +327,47 @@
 					</section>
 
 					<section>
-						<label class="label">* <i>Programming an Android application that uses sqlite database / Programmer une application Android qui utilise la base de donnée sqlite</i></label>
-						<div class="inline-group6">
-							<label class="radio"><input type="radio" name="android_3" value="android_3_1"><i></i>Very easy / Très facile</label>
-							<label class="radio"><input type="radio" name="android_3" value="android_3_2"><i></i>Easy / Facile</label>
-							<label class="radio"><input type="radio" name="android_3" value="android_3_3"><i></i>Average / Moyen</label>
-							<label class="radio"><input type="radio" name="android_3" value="android_3_4"><i></i>Difficult / Difficile</label>
-							<label class="radio"><input type="radio" name="android_3" value="android_3_5"><i></i>Very Difficult / Très difficile</label>
-							<label class="radio"><input type="radio" name="android_3" value="android_3_6"><i></i>Not Applicable / Non applicable</label>
+						<label class="label">* <i>Examples and tutorials availables / Exemples et tutoriels disponibles</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="android_3_1" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_3_1" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_3_1" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_3_1" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_3_1" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_3_1" value="6"><i></i>Not Applicable / Non applicable</label>
+						</div>
+					</section>
+					<section>
+						<label class="label">* <i>Help and support available online / Aide et support disponible en ligne</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="android_3_2" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_3_2" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_3_2" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_3_2" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_3_2" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_3_2" value="6"><i></i>Not Applicable / Non applicable</label>
+						</div>
+					</section>
+					<section>
+						<label class="label">* <i>Having a code that compiles without errors  / Avoir un code qui compile sans erreurs</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="android_3_3" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_3_3" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_3_3" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_3_3" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_3_3" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_3_3" value="6"><i></i>Not Applicable / Non applicable</label>
+						</div>
+					</section>
+					<section>
+						<label class="label">* <i>The application run without any bugs / L'application fonctionne sans bogues</i></label>
+						<div class="inline-group1">
+							<label class="radio"><input type="radio" name="android_3_4" value="1"><i></i>Very easy / Très facile</label>
+							<label class="radio"><input type="radio" name="android_3_4" value="2"><i></i>Easy / Facile</label>
+							<label class="radio"><input type="radio" name="android_3_4" value="3"><i></i>Average / Moyen</label>
+							<label class="radio"><input type="radio" name="android_3_4" value="4"><i></i>Difficult / Difficile</label>
+							<label class="radio"><input type="radio" name="android_3_4" value="5"><i></i>Very Difficult / Très difficile</label>
+							<label class="radio"><input type="radio" name="android_3_4" value="6"><i></i>Not Applicable / Non applicable</label>
 						</div>
 					</section>
 					

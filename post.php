@@ -10,9 +10,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 	$db->build($config);
 
 	$errors = 0;
-	for($i = 1; $i < 3; $i++)
+	for($i = 1; $i <= 3; $i++)
 	{
-		for($j = 1; $j < 4; $i++)
+		for($j = 1; $j <= 4; $j++)
 		{
 			if (!isset($_POST['ios_'.$i.'_'.$j])) $errors++;
 			if (!isset($_POST['android_'.$i.'_'.$j])) $errors++;
@@ -28,9 +28,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 	else
 	{
 		$args = array(':ios_comments' => $_POST['ios_comments'], ':android_comments' => $_POST['android_comments']);
-		for($i = 1; $i < 3; $i++)
+		for($i = 1; $i <= 3; $j++)
 		{
-			for($i = 1; $i < 4; $i++)
+			for($i = 1; $i <= 4; $i++)
 			{
 				$args[':ios_'.$i.'_'.$j] = $_POST['ios_'.$i.'_'.$j];
 				$args[':android_'.$i.'_'.$j] = $_POST['android_'.$i.'_'.$j];

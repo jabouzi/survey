@@ -42,9 +42,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		$now = date('Y-m-d H:i:s');
 		$query = "INSERT INTO survey_activities VALUES ('{$user[0]['id']}', '{$ip_address}', '{$user_agent}', '{$session_id}', '{$now}')";
 		$db->query($query, array());
-		echo '<pre>';
-		print_r($args);
-		$args[':id'] = $db->lastInsertId();
+		//echo '<pre>';
+		//print_r($args);
+		//$args[':id'] = $db->lastInsertId();
 		$query = "insert into survey_answers (
 		  id,
 		  ios_1_1,

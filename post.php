@@ -28,8 +28,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 	else
 	{
 		$args = array(':ios_comments' => $_POST['ios_comments'], ':android_comments' => $_POST['android_comments']);
-		if ($args[':ios_comments'] == '') $args[':ios_comments'] = 'null';
-		//if ($args[':android_comments'] == '') $args[':android_comments'] = 'null';
 		for($i = 1; $i <= 3; $i++)
 		{
 			for($j = 1; $j <= 4; $j++)
@@ -44,9 +42,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		$now = date('Y-m-d H:i:s');
 		$query = "INSERT INTO survey_activities VALUES ('{$user[0]['id']}', '{$ip_address}', '{$user_agent}', '{$session_id}', '{$now}')";
 		$db->query($query, array());
-		//echo '<pre>';
-		//print_r($args);
-		//$args[':id'] = $db->lastInsertId();
         $query = "INSERT INTO survey_answers (
 		  ios_1_1,
 		  ios_1_2,

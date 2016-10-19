@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		$query = "INSERT INTO survey_activities VALUES ('{$user[0]['id']}', '{$ip_address}', '{$user_agent}', '{$session_id}', '{$now}')";
 		$db->query($query, array());
 		$args[':id'] = $db->lastInsertId();
-		$query = "INSERT INTO survey_answers VALUES (".explode(',', array_keys($args).")";
+		$query = "INSERT INTO survey_answers VALUES (".explode(',', array_keys($args)).")";
 		echo $query;
 		$db->query($query, $args);
 		$_SESSION['message'] = 'Thank You for your paticipation. / Merci d\'avoir participé.';

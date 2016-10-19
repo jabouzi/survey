@@ -43,8 +43,63 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		$query = "INSERT INTO survey_activities VALUES ('{$user[0]['id']}', '{$ip_address}', '{$user_agent}', '{$session_id}', '{$now}')";
 		$db->query($query, array());
 		$args[':id'] = $db->lastInsertId();
-		$query = "INSERT INTO survey_answers (id, ios_1_1,ios_1_2,ios_1_3,ios_1_4,ios_2_1,ios_2_2,ios_2_3,ios_2_4,ios_3_1,ios_3_2,ios_3_3,ios_3_4,ios_comments,android_1_1,android_1_2,android_1_3,android_1_4,android_2_1,android_2_2,android_2_3,android_2_4,android_3_1,android_3_2,android_3_3,android_3_4,android_comments) 
-		VALUES ('', :ios_1_1,:ios_1_2,:ios_1_3,:ios_1_4,:ios_2_1,:ios_2_2,:ios_2_3,:ios_2_4,:ios_3_1,:ios_3_2,:ios_3_3,:ios_3_4,:ios_comments,:android_1_1,:android_1_2,:android_1_3,:android_1_4,:android_2_1,:android_2_2,:android_2_3,:android_2_4,:android_3_1,:android_3_2,:android_3_3,:android_3_4,:android_comments)";
+		$query = "nsert into survey_answers (
+		  id,
+		  ios_1_1,
+		  ios_1_2,
+		  ios_1_3,
+		  ios_1_4,
+		  ios_2_1,
+		  ios_2_2,
+		  ios_2_3,
+		  ios_2_4,
+		  ios_3_1,
+		  ios_3_2,
+		  ios_3_3,
+		  ios_3_4,
+		  android_1_1,
+		  android_1_2,
+		  android_1_3,
+		  android_1_4,
+		  android_2_1,
+		  android_2_2,
+		  android_2_3,
+		  android_2_4,
+		  android_3_1,
+		  android_3_2,
+		  android_3_3,
+		  android_3_4,
+		  ios_comments,
+		  android_comments,
+		) values (
+		  :id,
+		  :ios_1_1,
+		  :ios_1_2,
+		  :ios_1_3,
+		  :ios_1_4,
+		  :ios_2_1,
+		  :ios_2_2,
+		  :ios_2_3,
+		  :ios_2_4,
+		  :ios_3_1,
+		  :ios_3_2,
+		  :ios_3_3,
+		  :ios_3_4,
+		  :android_1_1,
+		  :android_1_2,
+		  :android_1_3,
+		  :android_1_4,
+		  :android_2_1,
+		  :android_2_2,
+		  :android_2_3,
+		  :android_2_4,
+		  :android_3_1,
+		  :android_3_2,
+		  :android_3_3,
+		  :android_3_4,
+		  :ios_comments,
+		  :android_comments
+		  )";
 		$db->query($query, $args);
 		$_SESSION['message'] = 'Thank You for your paticipation. / Merci d\'avoir participé.';
 		header('location: index.php');

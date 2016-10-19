@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		$db->query($query, array());
 		//echo '<pre>';
 		//print_r($args);
-		$args[':id'] = $db->lastInsertId();
+		$_POST['id'] = $db->lastInsertId();
         $query = "INSERT INTO survey_answers (
           id, 
 		  ios_1_1,
@@ -74,35 +74,35 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		  ios_comments,
 		  android_comments,
 		) values (
-		  :id,
-		  :ios_1_1,
-		  :ios_1_2,
-		  :ios_1_3,
-		  :ios_1_4,
-		  :ios_2_1,
-		  :ios_2_2,
-		  :ios_2_3,
-		  :ios_2_4,
-		  :ios_3_1,
-		  :ios_3_2,
-		  :ios_3_3,
-		  :ios_3_4,
-		  :android_1_1,
-		  :android_1_2,
-		  :android_1_3,
-		  :android_1_4,
-		  :android_2_1,
-		  :android_2_2,
-		  :android_2_3,
-		  :android_2_4,
-		  :android_3_1,
-		  :android_3_2,
-		  :android_3_3,
-		  :android_3_4,
-		  :ios_comments,
-		  :android_comments
+		  {$_POST['id']},
+		  {$_POST['ios_1_1']},
+		  {$_POST['ios_1_2']},
+		  {$_POST['ios_1_3']},
+		  {$_POST['ios_1_4']},
+		  {$_POST['ios_2_1']},
+		  {$_POST['ios_2_2']},
+		  {$_POST['ios_2_3']},
+		  {$_POST['ios_2_4']},
+		  {$_POST['ios_3_1']},
+		  {$_POST['ios_3_2']},
+		  {$_POST['ios_3_3']},
+		  {$_POST['ios_3_4']},
+		  {$_POST['android_1_1']},
+		  {$_POST['android_1_2']},
+		  {$_POST['android_1_3']},
+		  {$_POST['android_1_4']},
+		  {$_POST['android_2_1']},
+		  {$_POST['android_2_2']},
+		  {$_POST['android_2_3']},
+		  {$_POST['android_2_4']},
+		  {$_POST['android_3_1']},
+		  {$_POST['android_3_2']},
+		  {$_POST['android_3_3']},
+		  {$_POST['android_3_4']},
+		  {$_POST['ios_comments']},
+		  {$_POST['android_comments']}
 		  )";
-		$db->query($query, $args);
+		$db->query($query, array());
 		$_SESSION['message'] = 'Thank You for your paticipation. / Merci d\'avoir participé.';
 		header('location: index.php');
 		exit;
